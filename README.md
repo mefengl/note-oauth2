@@ -4,10 +4,7 @@
 
 以下是阅读本项目代码的推荐顺序，方便理解 OAuth 2.0 的实现：
 
-1. [src/index.ts](src/index.ts) - 主要实现类和核心功能
-   - OAuth2RequestResult - OAuth 2.0 请求结果的基础类
-   - TokenRequestResult - 处理令牌请求响应
-   - DeviceAuthorizationRequestResult - 处理设备授权请求响应
+1. [src/index.ts](src/index.ts)
 
 ## 英文文档
 
@@ -47,4 +44,3 @@ const refreshToken = result.refreshToken();
 
 ```
 npm i @oslojs/oauth2
-```
